@@ -27,8 +27,9 @@ def index(request):
                 n=44
             elif  dias >= 90 and UF <= 5000 and UF > 200:
                 n=35
-
-            
+            else:
+                n=34
+                
             j=None
 
             for i in range(len(response.json()['TMCs'])):
